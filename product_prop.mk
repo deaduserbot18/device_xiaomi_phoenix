@@ -33,6 +33,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1
 
+# Graphics
+PRODUCT_PRODUCT_PROPERTIES += \
+    vendor.display.disable_rotator_downscale=1
+
 # Power-saving props
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.use_data_netmgrd=true \
